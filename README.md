@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the code repository for the research project "Global Urban and Rural Settlement Dataset from 2000 to 2020 (GRUS)." This work creates a global dataset of urban and rural settlements at a 100-meter resolution, based on open-source GHS-BUILT, OpenStreetMap, and NPP-VIIRS-like nighttime light data.  
+This is the code repository for the research project "Global Urban and Rural Settlement Dataset from 2000 to 2020 (GURS)." This work creates a global dataset of urban and rural settlements at a 100-meter resolution, based on open-source GHS-BUILT-S R2023A, OpenStreetMap, and NPP-VIIRS-like nighttime light data.  
 
 The  dataset is available at  [here](https://zenodo.org/records/11160893). The dataset is stored in GeoTIFF format with the same coordinate reference system as GHS-BUILT, using the ESRI:54009 - World Mollweide projection. It employs an 8-bit unsigned integer format, where the pixels with a value of '1' represent urban settlements and '2' represent rural settlements. These data can be processed by ARCGIS, QGIS, MATLAB, and other tools.
 
